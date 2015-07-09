@@ -1,0 +1,68 @@
+/*reset*/
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, blockquote {margin:0;padding:0;}
+html {
+    height: 100%;
+}
+body {
+    font:12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+    color: #111;
+    background-color: #fff;
+    height: 100%;
+}
+.container {
+    height: 100%;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background: #edf4ed;
+}
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+nav {
+    height: 40px;
+    line-height: 40px
+}
+nav > ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+nav > ul > li {
+    float: left;
+    color: #072;
+    font-size: 15px;
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
+footer {
+    text-align: center;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.record .item {
+    margin: 15px;
+}
+.record .item .title {
+    float: left;
+    width: 100px;
+    text-align: right;
+    padding: 5px 18px;
+}
+.record .item .value {
+    margin-left: 100px;
+    padding: 5px 18px;
+}
+.record .operate {
+    text-align: center;
+}

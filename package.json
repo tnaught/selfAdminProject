@@ -1,0 +1,26 @@
+{
+  "name": "selfAdminProject",
+  "version": "0.0.1",
+  "description": "a way to self admin",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tnaught/selfAdminProject.git"
+  },
+  "keywords": [
+    "selfadmin"
+  ],
+  "author": "tianjiaermei",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tnaught/selfAdminProject/issues"
+  },
+  "homepage": "https://github.com/tnaught/selfAdminProject",
+  "dependencies": {
+    "express": "^4.13.1",
+    "jade": "^1.11.0"
+  }
+}
